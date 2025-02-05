@@ -1,0 +1,13 @@
+[project]
+authors = ["Fathia Abdelkader <fathia.abdelkader4@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "BINF5507-Assignment1"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pandas = ">=2.2.3,<3"
+numpy = ">=2.0.2,<3"

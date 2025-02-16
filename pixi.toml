@@ -1,8 +1,7 @@
 [project]
-authors = ["Fathia Abdelkader <fathia.abdelkader4@gmail.com>"]
 channels = ["conda-forge"]
 description = "Add a short description here"
-name = "BINF5507-Assignment1"
+name = "BINF AI"
 platforms = ["win-64"]
 version = "0.1.0"
 
@@ -14,5 +13,8 @@ numpy = ">=2.0.2,<3"
 scikit-learn = ">=1.6.1,<2"
 pip = ">=24.3.1,<25"
 ipykernel = ">=6.29.5,<7"
-seaborn = ">=0.13.2,<0.14"
 matplotlib = ">=3.9.4,<4"
+seaborn = ">=0.13.2,<0.14"
+
+[pypi-dependencies]
+umap-learn = ">=0.5.7, <0.6"
